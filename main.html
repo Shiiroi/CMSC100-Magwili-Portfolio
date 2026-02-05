@@ -1,104 +1,107 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
-<head>
+  <head>
     <title>Sample Web Page</title>
     <link rel="stylesheet" type="text/css" href="flex.css" />
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="h-logo">
-            <h1>V</h1>
-        </div>
-            <nav class="h-nav">
-                <a href="#home">Home</a> 
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a> 
-            </nav> 
-        <div class="h-logo">
-        </div>
+      <div class="h-logo">
+        <h1>V</h1>
+      </div>
+      <nav class="h-nav">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="h-logo"></div>
     </header>
-       
-    
-        <main>
-            <section id="home" class="home_section">
-                <div class="home_text">
-                    <h3>Hi, my name is</h3>
-                    <h1>Vince Roi Magwili</h1>
-                    <h2>I build web applications</h2>
-                    <p>I am a <span>computer science student </span> at the 
-                        <span> of the Philippines Los Baños</span>.
-                        I am currently focused on full stack web development 
-                    </p>
-                </div>
-                <div class="img_container">
-                    <img class="profile" src="/img/profile.JPG" alt="profile">
-                </div>
-            </section>
 
-            
+    <main>
+      <section id="home" class="home_section">
+        <div class="home_text">
+          <h3>Hi, my name is</h3>
+          <h1>Vince Roi Magwili</h1>
+          <h2>I build web applications</h2>
+          <p>
+            I am a <span>computer science student </span> at the
+            <span> of the Philippines Los Baños</span>. I am currently focused
+            on full stack web development
+          </p>
+        </div>
+        <div class="img_container">
+          <img class="profile" src="/img/profile.JPG" alt="profile" />
+        </div>
+      </section>
 
-            <section id="projects" class="about_skills_section">
-                <section class="about_section">
-                    <div class="svg_h1_container">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-  <path fill-rule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clip-rule="evenodd" />
-</svg>
-                        <h1>About</h1>
-                        <div class="divider"></div>
-                    </div>
-                    <p>My interest in programming started in junior high when I was introduced to <span> Scratch.</span> 
-                        I then transitioned to game developement using <span> Unity Game Engine</span> during the pandemic.
-                         Now I am focusing on improving my skills in <span>web development.</span>
-                    </p>
-                </section>
-                <!-- <div class="divider_vertical"></div> -->
-                <section class="skills_section">
-                    <div class="svg_h1_container">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-  <path fill-rule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clip-rule="evenodd" />
-</svg>
-                        <h1>Skills</h1>
-                        <div class="divider"></div>
-                    </div>
-                    <div class="skills_container">
+      <section id="projects" class="about_skills_section">
+        <section class="about_section">
+          <div class="section_header">
+	        &#9830
+            <h1>About</h1>
+            <div class="divider"></div>
+          </div>
+          <p>
+            My interest in programming started in junior high when I was
+            introduced to <span> Scratch.</span> I then transitioned to game
+            developement using <span> Unity Game Engine</span> during the
+            pandemic. Now I am focusing on improving my skills in
+            <span>web development.</span>
+          </p>
+          <div class="divider"></div>
+        </section>
+        <section class="skills_section">
+          <div class="section_header">
+            	        &#9830
+            <h1>Skills</h1>
+            <div class="divider"></div>
+          </div>
+          <div class="skills_container">
+            <ul>
+              <li>Python</li>
+              <li>Java</li>
+              <li>Unity Engine</li>
+              <li>C#</li>
+            </ul>
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+          <div class="divider"></div>
+        </section>
+      </section>
 
-                        <ul>
-                            <li>Python</li>
-                            <li>Java</li>
-                            <li>Unity Engine</li>
-                            <li>C#</li>
-                        </ul>
-                        <ul>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>Express</li>
-                            <li>MongoDB</li>
-                        </ul>
-                    </div>
-                </section>
-            </section>
+      <section id="contact">
+          <div class="section_header">
+	        &#9830
+            <h1>Projects</h1>
+            <div class="divider"></div>
+          </div>
+        <div>
+          <h3>Proshop</h3>
+          <p>
+            A full-stack e-commerce project. The project simulates a real-world
+            e-commerce website.
+          </p>
+          <ul>
+            <li>tools</li>
+          </ul>
+        </div>
+      </section>
 
-            <section id="contact">
-                <h1>Projects</h1>
-                <div>
-                    <h3>Proshop</h3>
-                    <p>A full-stack e-commerce project. 
-                        The project simulates a real-world e-commerce website.
-                    </p>
-                    <ul>
-                        <li>tools</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section>
-                <h1>Contact</h1>
-                <p> If you have any questions, suggestions, or just want to say hello, feel free to reach out!</p>
-            </section>
-        </main>
+      <section>
+        <h1>Contact</h1>
+        <p>
+          If you have any questions, suggestions, or just want to say hello,
+          feel free to reach out!
+        </p>
+      </section>
+    </main>
     <footer>
-        <h4>© 2026 Vince Roi Magwili. All rights reserved.</h4>
+      <h4>© 2026 Vince Roi Magwili. All rights reserved.</h4>
     </footer>
-</body>
+  </body>
 </html>
