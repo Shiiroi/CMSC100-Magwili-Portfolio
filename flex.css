@@ -1,11 +1,20 @@
 body,
 html {
   background-color: #2e2e2e;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   margin: 0;
 }
 
+ul {
+  font-size: 16px;
+  color: #bdbdbd;
+  padding-left: 16px;
+  margin-top: 8px;
+  text-align: justify;
+  padding-right: 24px;
+  margin-bottom: 8px;
+}
 h1 {
   font-family: monospace;
   font-size: 32px;
@@ -25,6 +34,8 @@ p {
 
 p {
   line-height: 1.3;
+  color: #bdbdbd;
+  margin-top: 8px;
 }
 
 span {
@@ -34,14 +45,12 @@ span {
 ul li::marker {
   color: #00ff85;
 }
-img {
+
+.profile {
+  box-shadow: 0px 0px 8px rgba(0, 255, 133, 0.5);
   width: 250px;
   height: 250px;
   border-radius: 8px;
-}
-
-.profile {
-  box-shadow: 0px 0px 8px rgba(0, 255, 133, 0.75);
 }
 .img_container {
   padding: 16px;
@@ -52,7 +61,7 @@ img {
   width: 100%;
   border: 0;
   margin: 20px 10px;
-  box-shadow: 0px 0px 8px rgba(0, 255, 133, 0.75);
+  box-shadow: 0px 0px 8px rgba(0, 255, 133, 0.5);
 }
 
 .divider_vertical {
@@ -61,7 +70,7 @@ img {
   align-self: stretch;
   border: 0;
   margin: 20px 0;
-  box-shadow: 0px 0px 8px rgba(0, 255, 133, 0.75);
+  box-shadow: 0px 0px 8px rgba(0, 255, 133, 0.5);
 }
 
 .section_header {
@@ -141,6 +150,7 @@ main {
   margin-top: 18px;
   font-size: 56px;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .home_section h2 {
@@ -174,15 +184,6 @@ main {
   margin-bottom: 3px;
 }
 
-.about_skills_section ul {
-  font-size: 16px;
-  color: #bdbdbd;
-  padding-left: 16px;
-  margin-top: 8px;
-  text-align: justify;
-  padding-right: 24px;
-  margin-bottom: 8px;
-}
 .about_section {
   flex: 1;
 }
@@ -196,6 +197,43 @@ main {
   padding-left: 16px;
 }
 
+/* projects section */
+.projects_section {
+  margin-top: 32px;
+}
+
+.project_container {
+  display: flex;
+}
+
+.project_card {
+  flex: 1;
+  margin: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.project_card h3 {
+  font-family: monospace;
+  font-size: 24px;
+  color: white;
+}
+.project_card img {
+  width: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  max-height: 170px;
+}
+
+.project_card_text {
+  padding: 16px;
+}
+
+/* contact section */
+
+.contact_section {
+  margin-top: 24px;
+}
 /* footer */
 footer {
   justify-content: center;
