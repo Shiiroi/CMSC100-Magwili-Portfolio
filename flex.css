@@ -13,9 +13,11 @@ img {
     width: 250px;
     height: 250px;
     border-radius: 8px;
+        box-shadow: 0px 0px 8px rgba(0,255,133,0.75) ;
 }
 .img_container{
     padding: 16px;
+
 }
 .divider {
     height: 1px;
